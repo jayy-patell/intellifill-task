@@ -1,14 +1,4 @@
 import React from "react";
-const {
-  Footer,
-  FooterBrand,
-  FooterCopyright,
-  FooterDivider,
-  FooterIcon,
-  FooterLink,
-  FooterLinkGroup,
-  FooterTitle,
-} = require("flowbite-react");
 
 const {
   BsDribbble,
