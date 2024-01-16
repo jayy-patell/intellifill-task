@@ -1,27 +1,27 @@
-data = [
+var recent_exams = [
   {
     exam_name: "JEE Mains 2023",
     Agency: "National Testing Agency",
-    No_of_participants: "More than 10 lakh",
+    No_of_participants: "More than 20 lakh",
     Fees: "Rs. 650",
     Tags: "Engineering, IIT, PCM",
-    img: "../photo1.jpg",
+    img: "../jee.jpeg",
   },
   {
-    exam_name: "JEE Mains 2023",
-    Agency: "National Testing Agency",
+    exam_name: "GATE 2023",
+    Agency: "IIT Bombay",
     No_of_participants: "More than 10 lakh",
-    Fees: "Rs. 650",
+    Fees: "Rs. 1000",
     Tags: "Engineering, IIT",
-    img: "../photo1.jpg",
+    img: "../gate.jpeg",
   },
   {
-    exam_name: "JEE Mains 2023",
-    Agency: "National Testing Agency",
+    exam_name: "AIIMS 2023",
+    Agency: "AIIMS Delhi",
     No_of_participants: "More than 10 lakh",
-    Fees: "Rs. 650",
-    Tags: "Engineering, IIT",
-    img: "../photo1.jpg",
+    Fees: "Rs. 1200",
+    Tags: "Medical, AIIMS",
+    img: "../aiims.jpeg",
   },
   {
     exam_name: "JEE Mains 2023",
@@ -41,4 +41,4 @@ data = [
   },
 ];
 
-export default data;
+export default recent_exams;

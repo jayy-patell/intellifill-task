@@ -1,14 +1,14 @@
 import React from "react";
 
-export default function Card() {
+export default function Card(props) {
   return (
     <div className="bg-white rounded-lg shadow-lg p-4 w-96">
       <div className="flex flex-no-wrap">
-        <img src="../logo512.png" className="rounded-circle w-10 h-10" />
+        <img src={props.img} className="rounded-circle w-10 h-10" />
         <div>
-          <h5 className="text-xl font-semibold px-4">JEE Mains 2023</h5>
+          <h5 className="text-xl font-semibold px-4">{props.exam_name}</h5>
           <p className="text-gray-400 text-sm flex-wrap mb-2 px-4">
-            National Testing Agency
+            {props.Agency}
           </p>
         </div>
         <svg
@@ -35,7 +35,7 @@ export default function Card() {
           >
             <path d="M12,17a4,4,0,1,1,4-4A4,4,0,0,1,12,17Zm6,4a3,3,0,0,0-3-3H9a3,3,0,0,0-3,3v3H18ZM18,8a4,4,0,1,1,4-4A4,4,0,0,1,18,8ZM6,8a4,4,0,1,1,4-4A4,4,0,0,1,6,8Zm0,5A5.968,5.968,0,0,1,7.537,9H3a3,3,0,0,0-3,3v3H6.349A5.971,5.971,0,0,1,6,13Zm11.651,2H24V12a3,3,0,0,0-3-3H16.463a5.952,5.952,0,0,1,1.188,6Z" />
           </svg>
-          <p className="flex-nowrap pl-4">More than 20 people</p>
+          <p className="flex-nowrap pl-4">{props.No_of_participants}</p>
         </div>
         <div className="flex flex-nowrap py-2">
           <svg
@@ -48,7 +48,7 @@ export default function Card() {
           >
             <path d="M21,6H5c-.859,0-1.672-.372-2.235-.999,.55-.614,1.349-1.001,2.235-1.001H23c1.308-.006,1.307-1.995,0-2H5C2.239,2,0,4.239,0,7v10c0,2.761,2.239,5,5,5H21c1.657,0,3-1.343,3-3V9c0-1.657-1.343-3-3-3Zm-1,9c-1.308-.006-1.308-1.994,0-2,1.308,.006,1.308,1.994,0,2Z" />
           </svg>
-          <p className="flex-nowrap pl-4">Rs. 2200</p>
+          <p className="flex-nowrap pl-4">{props.Fees}</p>
         </div>
         <div className="flex justify-items-start pt-2">
           <p className="border border-solid border-2 border-gray-400 rounded-lg mx-2 px-2 text-sm">
@@ -63,7 +63,7 @@ export default function Card() {
         </div>
 
         <div className="text-right pr-4 pt-2">
-          <a href="#" className="text-blue-500 text-sm">
+          <a href="/info" className="text-blue-500 text-sm">
             View Details
           </a>
         </div>
