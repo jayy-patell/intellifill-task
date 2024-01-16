@@ -14,12 +14,15 @@ export default function Foot() {
       <div className="container mx-auto">
         <div className="grid grid-cols-1 px-24 py-6 md:grid-cols-3 lg:grid-cols-3 gap-8">
           <div className="mb-8 md:mb-0">
-            <img
-              src="../logo512.png"
-              alt="Flowbite Logo"
-              className="w-16 px-4h-auto"
-            />
-            <div className="flex space-x-6 py-6">
+            <div className="pl-8">
+              <img
+                src="../logo512.png"
+                alt="Flowbite Logo"
+                className="w-24 px-4h-auto"
+              />
+            </div>
+
+            <div className="flex space-x-6 py-6 p-4">
               <a href="#" className="text-white hover:text-gray-400">
                 <BsFacebook />
               </a>
@@ -40,37 +43,57 @@ export default function Foot() {
               <ul>
                 <li className="pb-2">
                   <a href="#" className="hover:underline text-sm">
-                    Flowbite
+                    Sitemap
                   </a>
                 </li>
                 <li className="pb-2">
                   <a href="#" className="hover:underline text-sm">
-                    Tailwind CSS
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div>
-              <h5 className="font-semibold mb-2">Follow Us</h5>
-              <ul>
-                <li className="pb-2">
-                  <a href="#" className="hover:underline text-sm">
-                    Github
+                    Credits
                   </a>
                 </li>
                 <li className="pb-2">
                   <a href="#" className="hover:underline text-sm">
-                    Discord
+                    Help Center
+                  </a>
+                </li>
+                <li className="pb-2">
+                  <a href="#" className="hover:underline text-sm">
+                    Community Guidelines
                   </a>
                 </li>
               </ul>
             </div>
             <div>
-              <h5 className="font-semibold mb-2">Legal</h5>
+              <h5 className="font-semibold mb-2">Accessibility</h5>
               <ul>
                 <li className="pb-2">
                   <a href="#" className="hover:underline text-sm">
-                    Privacy Policy
+                    Mobile
+                  </a>
+                </li>
+                <li className="pb-2">
+                  <a href="#" className="hover:underline text-sm">
+                    Marketing
+                  </a>
+                </li>
+                <li className="pb-2">
+                  <a href="#" className="hover:underline text-sm">
+                    Advertising
+                  </a>
+                </li>
+                <li className="pb-2">
+                  <a href="#" className="hover:underline text-sm">
+                    Report Issue
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h5 className="font-semibold mb-2">Privacy Policy</h5>
+              <ul>
+                <li className="pb-2">
+                  <a href="#" className="hover:underline text-sm">
+                    Trust &amp; Safety
                   </a>
                 </li>
                 <li className="pb-2">
@@ -81,10 +104,10 @@ export default function Foot() {
               </ul>
             </div>
           </div>
-          <div class="space-y-4 sm:flex sm:space-y-0 sm:space-x-4 rtl:space-x-reverse">
+          <div class="grid grid-rows-2 justify-center">
             <a
               href="#"
-              class="h-fit w-full sm:w-auto bg-gray-800 hover:bg-gray-700 focus:ring-4 focus:outline-none focus:ring-gray-300 text-white rounded-lg inline-flex items-center justify-center px-4 py-2.5 dark:bg-gray-700 dark:hover:bg-gray-600 dark:focus:ring-gray-700"
+              class="h-fit w-fit sm:w-fit bg-gray-800 hover:bg-gray-700 focus:ring-4 focus:outline-none focus:ring-gray-300 text-white rounded-lg inline-flex items-center justify-center px-4 py-2.5 dark:bg-gray-700 dark:hover:bg-gray-600 dark:focus:ring-gray-700"
             >
               <svg
                 class="me-3 w-7 h-7"
@@ -110,7 +133,7 @@ export default function Foot() {
             </a>
             <a
               href="#"
-              class="h-fit w-full sm:w-auto bg-gray-800 hover:bg-gray-700 focus:ring-4 focus:outline-none focus:ring-gray-300 text-white rounded-lg inline-flex items-center justify-center px-4 py-2.5 dark:bg-gray-700 dark:hover:bg-gray-600 dark:focus:ring-gray-700"
+              class="h-fit w-fit sm:w-fit bg-gray-800 hover:bg-gray-700 focus:ring-4 focus:outline-none focus:ring-gray-300 text-white rounded-lg inline-flex items-center justify-center px-4 py-2.5 dark:bg-gray-700 dark:hover:bg-gray-600 dark:focus:ring-gray-700"
             >
               <svg
                 class="me-3 w-7 h-7"
@@ -134,6 +157,21 @@ export default function Foot() {
                 </div>
               </div>
             </a>
+          </div>
+        </div>
+        <div className="border-t-2 border-gray-700 pt-4 pb-5">
+          <div className="pl-12">
+            <div className="w-full md:w-auto">
+              <p className="text-sm text-gray-400">
+                All rights reserved © 2021 IntelliFill Tech Pvt. Ltd.
+              </p>
+            </div>
+            <div className="w-full md:w-auto">
+              <a href="#" className="text-sm text-gray-400 hover:text-gray-300">
+                All trademarks and service marks are the properties of their
+                respective owners.
+              </a>
+            </div>
           </div>
         </div>
       </div>

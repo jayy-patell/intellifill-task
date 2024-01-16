@@ -2,11 +2,11 @@ import React from "react";
 
 export default function Card() {
   return (
-    <div className="bg-white rounded-lg shadow-lg p-4">
+    <div className="bg-white rounded-lg shadow-lg p-4 w-96">
       <div className="flex flex-no-wrap">
         <img src="../logo512.png" className="rounded-circle w-10 h-10" />
         <div>
-          <h5 className="text-xl font-semibold px-4">Card 1</h5>
+          <h5 className="text-xl font-semibold px-4">JEE Mains 2023</h5>
           <p className="text-gray-400 text-sm flex-wrap mb-2 px-4">
             National Testing Agency
           </p>
@@ -50,19 +50,19 @@ export default function Card() {
           </svg>
           <p className="flex-nowrap pl-4">Rs. 2200</p>
         </div>
-        <div className="flex">
-          <p className="border border-solid border-2 border-gray-400 rounded-lg mx-2 px-2">
+        <div className="flex justify-items-start pt-2">
+          <p className="border border-solid border-2 border-gray-400 rounded-lg mx-2 px-2 text-sm">
             Engineering
           </p>
-          <p className="border border-solid border-2 border-gray-400 rounded-lg mx-2 px-2">
+          <p className="border border-solid border-2 border-gray-400 rounded-lg mx-2 px-2 text-sm">
             IIT
           </p>
-          <p className="border border-solid border-2 border-gray-400 rounded-lg mx-2 px-2">
+          <p className="border border-solid border-2 border-gray-400 rounded-lg mx-2 px-2 text-sm">
             PCM
           </p>
         </div>
 
-        <div className="text-right pr-4">
+        <div className="text-right pr-4 pt-2">
           <a href="#" className="text-blue-500 text-sm">
             View Details
           </a>

@@ -7,7 +7,7 @@ export default function Navbar() {
         <a href="/" class="flex items-center">
           <img src="../logo512.png" class="h-8 mr-3" alt="Flowbite Logo" />
           <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-            Diouma
+            FormEase
           </span>
         </a>
         <div class="flex md:order-2 flex-row-reverse">
